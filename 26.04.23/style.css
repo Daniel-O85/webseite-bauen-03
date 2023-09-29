@@ -1,0 +1,500 @@
+/****** Einstellungen für alle Displaygrößen ******/
+
+body {
+    background-color: rgb(65, 65, 65);
+    margin: 0px;
+}
+
+/*** Header oben ***/
+header .header-oben {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    background-color: rgb(91, 89, 89);
+}
+
+/*** Header Logo ***/
+header .header-oben .header-logo img {
+    width: 100px;
+    filter: brightness(8);
+}
+
+/*** Header Menü ***/
+header .header-oben .header-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding-right: 50px;
+}
+
+/*** Header Menü Links***/
+header .header-oben .header-menu ul a {
+    padding: 0px 10px;
+    font-size: 10px;
+    text-decoration-line: none;
+    color: rgb(199, 199, 199);
+}
+
+/*** Header Menü Links Hover ***/
+header .header-oben .header-menu ul a:hover {
+    border-bottom: solid 3px rgb(123, 112, 112);
+    padding-bottom: 5px;
+}
+
+/*** Header unten ***/
+
+header .header-unten {
+    background-image: url(./bilder/bg-2.png);
+    background-position: bottom center;
+    background-size: cover;
+    color: white;
+}
+
+/*** hier wird das Hintergrundbild abgedunkelt ***/
+header .header-hintergrund-dunkel {
+    background-color: rgba(0, 0, 0, 0.682);
+    height: 100%;
+    padding-left: 20%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/*** Schriffarbe geändert ***/
+header .header-unten .header-uberschrift-gross span {
+    color: rgb(123, 112, 112);
+}
+
+/*** Button im Header unten angepasst ***/
+header .header-unten .header-uberschrift-gross button {
+    border: none;
+    background-color: rgb(48, 44, 44);
+    color: white;
+    padding: 10px 30px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+/*** Hover Für den Button ***/
+header .header-unten .header-uberschrift-gross button:hover {
+    background-color: rgb(169, 155, 155);
+}
+
+/*** Main ***/
+main {
+    background-color: white;
+    margin-top: -20px;
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(123, 112, 112);
+}
+
+/*** Text in dem Banner ***/
+main .main-about-text {
+    width: 55%;
+    text-align: left;
+    font-size: 10px;
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 15px;
+}
+
+/*** Bild in dem Banner ***/
+main .main-about-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/*** Die Banner Box ***/
+main .main-about-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+}
+
+/*** Box unter dem Banner ***/
+main .main-about-bild-und-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+/*** Listen anpassungen ***/
+main .main-about-bild-und-text ul {
+    list-style-type: none;
+    line-height: 25px;
+    margin: 50px;
+}
+
+/*** Skills ***/
+
+/*** Skill Banner Hintergrund***/
+main .main-skills .main-skills-banner-1 {
+    background-image: url(./bilder/foto-9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+main .main-skills-banner-1 .main-skills-banner-abdunkeln .main-skills-banner-1-img-1 .skill-shape-wert {
+    position: absolute;
+    width: 169px;
+    height: 169px;
+    text-align: center;
+    line-height: 166px;
+    margin-left: 6px;
+}
+
+/*** Skill Banner Hintergrund abdunkeln ***/
+main .main-skills .main-skills-banner-1 .main-skills-banner-abdunkeln {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.659);
+}
+
+/*** Skill Banner Überschrift ***/
+main .main-skills .main-skills-banner-1 .main-skills-banner-abdunkeln h3 {
+    width: 100%;
+}
+
+/*** Skill Banner Bilder ***/
+main .main-skills .main-skills-banner-1 .main-skills-banner-abdunkeln img {
+    padding: 20px 30px;
+    width: 120px;
+}
+
+/*** Projects ***/
+
+/*** Project Box ***/
+main .skills-project-banner-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*** Project Bilder ***/
+main .skills-project-banner-img-1 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./bilder/foto-2.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+main .skills-project-banner-img-2 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./bilder/foto-3.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+main .skills-project-banner-img-3 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./bilder/foto-4.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+main .skills-project-banner-img-4 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./bilder/foto-5.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+/**** Hover für die Bilder unsichtbar ****/
+main .skills-project-banner-img .skills-project-banner-img-1 .project-banner-hover,
+main .skills-project-banner-img .skills-project-banner-img-2 .project-banner-hover,
+main .skills-project-banner-img .skills-project-banner-img-3 .project-banner-hover,
+main .skills-project-banner-img .skills-project-banner-img-4 .project-banner-hover {
+    display: none;
+}
+
+/*** Hover für die Bilder sichtbar ***/
+main .skills-project-banner-img .skills-project-banner-img-1:hover .project-banner-hover,
+main .skills-project-banner-img .skills-project-banner-img-2:hover .project-banner-hover,
+main .skills-project-banner-img .skills-project-banner-img-3:hover .project-banner-hover,
+main .skills-project-banner-img .skills-project-banner-img-4:hover .project-banner-hover {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.798);
+    width: 260px;
+    height: 200px;
+    margin: 25px auto;
+}
+
+/*** Style für den Hover Inhalt ***/
+main .skills-project-banner-img .skills-project-banner-img-1:hover .project-banner-hover .banner-hover-inhalt,
+main .skills-project-banner-img .skills-project-banner-img-2:hover .project-banner-hover .banner-hover-inhalt,
+main .skills-project-banner-img .skills-project-banner-img-3:hover .project-banner-hover .banner-hover-inhalt,
+main .skills-project-banner-img .skills-project-banner-img-4:hover .project-banner-hover .banner-hover-inhalt {
+    padding-top: 70px;
+    color: white;
+}
+
+/*** Project Text Box oben ***/
+main .skill-projects {
+    padding: 50px;
+}
+
+/*** Project Text Box unten ***/
+.skills-project-banner-img-mitte {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    margin: -20px;
+    padding: 100px;
+}
+
+.skills-project-banner-img-mitte a {
+    color: darkcyan;
+}
+
+/*** Project Button ***/
+main .skills-project-button {
+    padding: 50px;
+}
+
+main .skills-project-button button {
+    padding: 10px 20px;
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/*** Member ***/
+main .main-member-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*** Member Bilder ***/
+main .main-member-img-1,
+main .main-member-img-2,
+main .main-member-img-3 {
+    background-image: url(./bilder/foto-7.png);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 280px;
+    margin: 20px;
+}
+
+/*** Hover Inhalt ausgeblendet ***/
+main .member-hover-1 img {
+    display: none;
+    width: 32px;
+    height: 32px;
+    filter: invert(1);
+}
+
+main .member-hover-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 280px;
+}
+
+/*** Hover Inhalt eingeblendet **/
+main .member-hover-1:hover {
+    background-color: rgba(0, 0, 0, 0.798);
+}
+
+main .member-hover-1:hover img {
+    display: block;
+}
+
+main .main-member-img-1 img,
+main .main-member-img-2 img,
+main .main-member-img-3 img {
+    margin: 20px;
+}
+
+/*** Member Bildbeschreibung ***/
+main .main-member-unterschrift {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .main-member-unterschrift-1,
+main .main-member-unterschrift-2,
+main .main-member-unterschrift-3 {
+    margin: 16px;
+    border: solid black 3px;
+    width: 280px;
+}
+
+/*** Member Kommentar ***/
+main .main-member-kommentar-box {
+    background-color: rgb(29, 29, 29);
+}
+
+main .main-member-kommentar {
+    padding: 50px;
+}
+
+main .main-member-kommentar h4 {
+    color: white;
+}
+
+main .main-member-kommentar a {
+    color: darkcyan;
+}
+
+/*** Blog ***/
+main .main-blog {
+    padding: 50px;
+}
+
+/*** Bilder und Texte ***/
+main .main-blog-bilder-und-text {
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
+}
+
+main .blog-text-1 {
+    grid-column-start: 3;
+}
+
+main .blog-text-2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+main .blog-text-3 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+main .blog-img-2 {
+    grid-column-start: 3;
+}
+
+/*** Zwischenlinie ***/
+main .blog-line {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: span 3;
+    border: solid rgb(220, 220, 220) 1px;
+    background-color: rgb(220, 220, 220);
+    width: 0.1px;
+    height: 900px;
+    margin-left: 20px;
+}
+
+main .blog-line img {
+    position: absolute;
+    margin-left: -8.9px;
+    margin-top: -5px;
+}
+
+main .blog-line .line-dot-2 {
+    position: absolute;
+    margin-left: -8.9px;
+    margin-top: 295px;
+
+}
+
+main .blog-line .line-dot-3 {
+    position: absolute;
+    margin-left: -8.9px;
+    margin-top: 600px;
+}
+
+
+/*** Punkt mit Text ***/
+main .blog-punkt {
+    background-image: url(./bilder/btn-round.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+/*** Contact ***/
+/*** Hintergrund ***/
+main .main-contact {
+    background-color: rgb(238, 238, 238);
+    padding: 50px;
+}
+
+/*** Inputfelder ***/
+main .main-contact input {
+    border: none;
+    border-top: solid 2px black;
+    background-color: rgba(255, 255, 255, 0);
+    width: 200px;
+    margin: 30px 10px;
+    padding: 5px;
+}
+
+/*** Textarea ***/
+main .main-contact textarea {
+    border: none;
+    border-top: solid 2px black;
+    background-color: rgba(255, 255, 255, 0);
+    width: 430px;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+/*** Button ***/
+main .main-contact-button button {
+    padding: 5px 40px;
+    border: solid black 2px;
+}
+
+/*** Footer ***/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(29, 29, 29);
+    color: rgb(123, 112, 112);
+}
+
+footer .footer-posts p span,
+footer .footer-feeds p span {
+    line-height: 30px;
+    border-bottom: solid 1px gray;
+}
+
+footer div {
+    margin: 20px;
+    padding: 20px;
+}
+
+footer .footer-logo {
+    width: 120px;
+}
+
+footer .footer-adress img {
+    width: 10px;
+    filter: invert(1);
+}
+
+footer .footer-copyright {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    background-color: rgb(16, 16, 16);
+    color: rgb(123, 112, 112);
+}
